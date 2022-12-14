@@ -13,10 +13,9 @@ for (int i = 0; i < m; i++)
 {
     for (int j = 0; j < n; j++)
     {
-        array2d[i, j] = random.Next(-30,30) + random.NextDouble();;
+        array2d[i, j] = random.Next(-30, 30) + random.NextDouble();
 
-        //if (array2d[i, j] / 2 == 1)
-            Console.WriteLine(Math.Round(array2d[i,j], 2));
+        Console.Write(Math.Round(array2d[i, j], 2) + " | ");
     }
     Console.WriteLine();
 }
