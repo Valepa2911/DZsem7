@@ -15,12 +15,9 @@ for (int i = 0; i < array2d.GetLength(0); i++)
     for (int j = 0; j < array2d.GetLength(1); j++)
     {
         if (n == array2d[i, j])
-        {
-             Console.Write($"{i},{j} " + " ");
-        }
+            Console.Write($"{i},{j} " + " ");
+
         else
-        {
             Console.Write("-" + " ");
-        }
     }
 }
